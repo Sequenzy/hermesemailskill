@@ -1,0 +1,23 @@
+{
+  "name": "hermes-email",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Hermes Email Skill: fast delivery decisions, message QA, and launch coordination.",
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"console.log('static public site ready')\"",
+    "validate": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "codex-skill",
+    "email",
+    "agents",
+    "hermes-email"
+  ],
+  "skill": {
+    "name": "hermes-email",
+    "path": "skills/hermes-email",
+    "install": "npx skills add hermes-email",
+    "githubInstall": "npx skills add polnikale/hermesemailskill --skill hermes-email"
+  }
+}
