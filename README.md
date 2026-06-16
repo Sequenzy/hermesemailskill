@@ -1,12 +1,12 @@
 # Hermes Email Skill
 
-Static landing page and Codex skill for hermesemailskill.com.
+Static landing page and agent skill for hermesemailskill.com. Works with Codex, Hermes, OpenClaw, Claude Code, Cowork, and other skill-aware agents.
 
 Install shortcut:
 
 ```bash
 npx skills add hermesemailskill
-npx skills add polnikale/hermesemailskill --skill hermesemailskill
+npx skills add Sequenzy/hermesemailskill --skill hermesemailskill
 ```
 
 Raw skill folder: `skills/hermesemailskill`

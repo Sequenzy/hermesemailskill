@@ -18,6 +18,6 @@
     "name": "hermesemailskill",
     "path": "skills/hermesemailskill",
     "install": "npx skills add hermesemailskill",
-    "githubInstall": "npx skills add polnikale/hermesemailskill --skill hermesemailskill"
+    "githubInstall": "npx skills add Sequenzy/hermesemailskill --skill hermesemailskill"
   }
 }
