@@ -1,5 +1,5 @@
 {
-  "name": "hermes-email",
+  "name": "hermesemailskill",
   "version": "0.1.0",
   "private": false,
   "description": "Hermes Email Skill: fast delivery decisions, message QA, and launch coordination.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "hermes-email"
+    "hermesemailskill"
   ],
   "skill": {
-    "name": "hermes-email",
-    "path": "skills/hermes-email",
-    "install": "npx skills add hermes-email",
-    "githubInstall": "npx skills add polnikale/hermesemailskill --skill hermes-email"
+    "name": "hermesemailskill",
+    "path": "skills/hermesemailskill",
+    "install": "npx skills add hermesemailskill",
+    "githubInstall": "npx skills add polnikale/hermesemailskill --skill hermesemailskill"
   }
 }

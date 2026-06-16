@@ -1,5 +1,5 @@
 ---
-name: hermes-email
+name: hermesemailskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on fast delivery decisions, message QA, and launch coordination. Triggers include requests about Preflight checklists, Launch-room summaries, Transactional copy review, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 
