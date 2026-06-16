@@ -1,0 +1,22 @@
+# Hermes Email Skill
+
+Hermes Email Skill is a skill package for fast delivery decisions, message QA, and launch coordination.
+
+Install:
+
+```bash
+npx skills add hermesemailskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://hermesemailskill.com/index.md
+- Skill page: https://hermesemailskill.com/skill/index.md
+- Raw SKILL.md: https://hermesemailskill.com/skills/hermesemailskill/SKILL.md
+- Skill discovery JSON: https://hermesemailskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Hermes Email Strategy: https://hermesemailskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Hermes Email Operations Playbook for AI Agents: https://hermesemailskill.com/articles/email-operations-playbook/index.md
+- Hermes Email Skill Audit Checklist: From Prompt to Production: https://hermesemailskill.com/articles/email-skill-audit-checklist/index.md

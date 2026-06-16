@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "hermesemailskill",
+      "title": "Hermes Email Skill",
+      "description": "Hermes Email Skill: fast delivery decisions, message QA, and launch coordination.",
+      "install": "npx skills add hermesemailskill",
+      "skill_url": "https://hermesemailskill.com/skills/hermesemailskill/SKILL.md",
+      "markdown_url": "https://hermesemailskill.com/skill/index.md",
+      "homepage_url": "https://hermesemailskill.com/"
+    }
+  ]
+}
