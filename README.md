@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add hermesemailskill
-npx skills add Sequenzy/hermesemailskill --skill hermesemailskill
 ```
 
 Raw skill folder: `skills/hermesemailskill`
