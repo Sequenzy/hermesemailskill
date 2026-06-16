@@ -2,9 +2,9 @@
 
 hermesemailskill.com
 
-Hermes Email Skill for agents that work on email systems.
+Coordinate fast email decisions without skipping preflight.
 
-A compact skill for fast delivery decisions, message QA, and launch coordination, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A launch-room skill for agents that summarize status, check message readiness, and separate speed from unsafe production action.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for fast delivery decisions, message QA, and launch coordination
 npx skills add hermesemailskill
 ```
 
-Raw skill folder: `skills/hermesemailskill`
+## Operating Data
 
-## Use Cases
+- **15m**: launch-room summary window
+- **8**: preflight checks
+- **3**: escalation lanes
 
-- **Preflight checklists**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Launch-room summaries**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Transactional copy review**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Dispatch board
 
-## Guides
+1. Request arrives
+2. Context packet
+3. Preflight scan
+4. Launch note
+5. Owner approval
 
-- [How to Build an Agent-Ready Hermes Email Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Hermes Email Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Hermes Email Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Preflight checklist
+
+Confirm links, segment, sender, suppression, timing, and approval owner.
+
+### Launch-room summary
+
+Turn noisy chat updates into one crisp status note.
+
+### Transactional copy review
+
+Check clarity, fallback states, and recipient expectations.
+
+## Operating Proof
+
+- **Best for**: Fast-moving teams shipping timed or transactional email
+- **Primary artifact**: Launch-ready brief with blockers and owner decisions
+- **Stop condition**: Missing approval, missing segment proof, or risky send timing
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/hermesemailskill/SKILL.md
+- Articles: /articles/
