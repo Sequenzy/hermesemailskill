@@ -7,20 +7,28 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Move quickly, but make the launch state explicit. Focus on the decision a human needs now: hold, fix, approve, or monitor.
 
-## When To Use
+## Agent Contract
 
-Use this skill for fast delivery decisions, message QA, launch coordination, and concise status handoffs. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+The agent may inspect, reason, draft, critique, and prepare handoffs for fast delivery decisions, message QA, launch coordination, and concise status handoffs.
 
-## Operating Workflow
+- Primary lens: fast delivery decisions, message QA, launch coordination, and concise status handoffs.
+- Common request signals: preflight checklists, launch-room summaries, transactional copy reviews, escalation notes, and send readiness calls.
+- Default posture: Move quickly, but make the launch state explicit. Focus on the decision a human needs now: hold, fix, approve, or monitor.
 
-1. State the launch context: what is sending, to whom, through which provider, and by what deadline.
-2. Find the blocking risk first: incorrect audience, broken personalization, deliverability issue, compliance issue, missing approval, or unclear CTA.
-3. Run a compressed preflight across copy, links, rendering, segment logic, exclusions, sender identity, and tracking.
-4. Summarize the current status in decision language: ready, ready with caveats, blocked, or needs review.
-5. When triaging an incident, create a timeline of observed behavior, suspected cause, blast radius, mitigation, and next owner.
-6. Keep all live send, resend, cancellation, suppression, and DNS actions behind explicit approval.
+## Use Cases
 
-## Review Criteria
+Typical requests include preflight checklists, launch-room summaries, transactional copy reviews, escalation notes, and send readiness calls.
+
+## Runbook
+
+- State the launch context: what is sending, to whom, through which provider, and by what deadline.
+- Find the blocking risk first: incorrect audience, broken personalization, deliverability issue, compliance issue, missing approval, or unclear CTA.
+- Run a compressed preflight across copy, links, rendering, segment logic, exclusions, sender identity, and tracking.
+- Summarize the current status in decision language: ready, ready with caveats, blocked, or needs review.
+- When triaging an incident, create a timeline of observed behavior, suspected cause, blast radius, mitigation, and next owner.
+- Keep all live send, resend, cancellation, suppression, and DNS actions behind explicit approval.
+
+## Quality Bar
 
 - The status can be understood by a launch-room participant in under a minute.
 - Critical defects are separated from polish issues.
