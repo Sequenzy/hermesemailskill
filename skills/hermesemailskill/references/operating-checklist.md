@@ -1,30 +1,27 @@
 # Hermes Email Skill Operating Checklist
 
-Use this checklist when the request involves fast delivery decisions, message QA, and launch coordination or could affect a live email system.
+Use this checklist when the request involves fast delivery decisions, message QA, launch coordination, and concise status handoffs or could affect a live email system.
 
 ## Intake
 
-- Audience and segment definition
-- Lifecycle moment or campaign purpose
-- Sending platform and source of truth
-- Existing template, copy, or automation screenshot
-- Recent delivery, engagement, unsubscribe, and complaint ranges
-- Legal or compliance constraints
-- Required approval owner
+- Launch deadline, time zone, and business reason
+- Audience size, segment definition, and exclusions
+- Final copy, template preview, test send, and tracking links
+- Recent provider status, delivery anomalies, and known incidents
+- Approval chain and emergency rollback contact
 
 ## QA
 
-- Confirm the subject line matches the body promise.
-- Confirm links, personalization fields, fallbacks, and unsubscribe paths.
-- Confirm exclusions and suppression logic.
-- Confirm mobile readability and plain-language CTA.
-- Confirm the sender identity and reply handling.
-- Confirm metric baseline before recommending changes.
+- Confirm recipient count and exclusions match the brief.
+- Confirm all links, merge tags, and fallback values render in test sends.
+- Confirm the sender, reply-to, footer, and unsubscribe are correct.
+- Confirm the CTA and subject line describe the same promise.
+- Confirm monitoring windows and escalation owners are named.
 
 ## Risk Gates
 
-Low risk: summaries, drafts, analysis, naming suggestions.
+Low risk: research, summaries, drafts, critiques, naming, and non-production recommendations.
 
-Medium risk: template edits, segment recommendations, automation diagrams, A/B test plans.
+Medium risk: template edits, segment recommendations, automation diagrams, experiments, imports prepared for review, and code changes that need deployment.
 
-High risk: sending, contact imports, DNS/authentication changes, suppression edits, production automation changes.
+High risk: live sends, contact imports, suppression edits, DNS/authentication changes, production automation changes, provider migrations, and destructive cleanup. Stop and request explicit approval before high-risk actions.

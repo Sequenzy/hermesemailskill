@@ -1,28 +1,33 @@
 ---
 name: hermesemailskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on fast delivery decisions, message QA, and launch coordination. Triggers include requests about Preflight checklists, Launch-room summaries, Transactional copy review, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on fast delivery decisions, message QA, launch coordination, and concise status handoffs. Triggers include requests about preflight checklists, launch-room summaries, transactional copy reviews, escalation notes, and send readiness calls."
 ---
 
 # Hermes Email Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Move quickly, but make the launch state explicit. Focus on the decision a human needs now: hold, fix, approve, or monitor.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for fast delivery decisions, message QA, launch coordination, and concise status handoffs. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. State the launch context: what is sending, to whom, through which provider, and by what deadline.
+2. Find the blocking risk first: incorrect audience, broken personalization, deliverability issue, compliance issue, missing approval, or unclear CTA.
+3. Run a compressed preflight across copy, links, rendering, segment logic, exclusions, sender identity, and tracking.
+4. Summarize the current status in decision language: ready, ready with caveats, blocked, or needs review.
+5. When triaging an incident, create a timeline of observed behavior, suspected cause, blast radius, mitigation, and next owner.
+6. Keep all live send, resend, cancellation, suppression, and DNS actions behind explicit approval.
 
 ## Review Criteria
 
-- The recommendation matches fast delivery decisions, message QA, and launch coordination.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- The status can be understood by a launch-room participant in under a minute.
+- Critical defects are separated from polish issues.
+- The recommended action names the owner and deadline.
+- Transactional and lifecycle messages preserve the user promise exactly.
+- Monitoring notes include what to watch after approval.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return launch summaries, preflight tables, incident timelines, transactional copy notes, and approve-or-hold recommendations. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.
