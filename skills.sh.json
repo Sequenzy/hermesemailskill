@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Launch Coordination",
+      "description": "Fast email launch QA, status calls, and incident handoffs.",
+      "skills": [
+        "hermesemailskill"
+      ]
+    }
+  ]
+}
